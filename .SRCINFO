@@ -1,0 +1,22 @@
+pkgbase = szip
+	pkgdesc = A simple, unified CLI wrapper for many compression/packaging tools.
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/toxichemicals/szip
+	arch = any
+	license = Apache 2.0
+	depends = bash
+	depends = file
+	depends = tar
+	depends = p7zip
+	depends = zip
+	depends = unzip
+	depends = xz
+	depends = bzip2
+	depends = lz4
+	depends = lzip
+	depends = pv
+	source = szip
+	md5sums = SKIP
+
+pkgname = szip
